@@ -1,0 +1,249 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(imagenes/casa\ del\ arbol2.jpg);
+    background-size: cover;
+}
+
+header{
+
+    background-color: #02B0EF;
+    height: 98px;
+
+}
+.menu{
+    
+    
+    display:flex;
+    justify-content:flex-end;
+    
+
+    
+    
+}
+.quienes{
+
+    color: azure;
+    width: 140px;
+    margin-top: 30px;
+    margin-right: 20px;
+
+
+    
+
+}
+
+.bus{
+
+    
+    margin-top: 20px;
+    margin-right: 20px;
+
+    
+}
+.noti{
+
+    
+    margin-top: 10px;
+    margin-right: 16px;
+   
+    
+
+}
+.log{
+
+    
+    margin-top: 20px;
+    margin-right: 50px;
+    
+    
+
+}
+footer{
+
+    height: 100%;
+    background-color: #02B0EF;
+    margin-top: 50px;
+
+}
+.cuadro{
+    
+    margin-left: 50px;
+    background-color: white;
+    width: 800px;
+    height: 110px;
+}
+.mfoot{
+
+    
+    margin-top: 20px;
+
+
+}
+
+ivisor{
+    background-color: black;
+    height: 10px;
+}
+
+
+.principal{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    
+    
+    
+}
+.principal2{
+
+    
+    margin-top: 0px;
+    
+    
+}
+.principal3{
+
+    float: left;
+    margin-left: 350px;
+    
+    
+    
+}
+
+.imgp {
+    margin-left: 20px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 460px;
+    width: 375px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.imgp>a {
+position: absolute;
+bottom: 0px;
+padding-bottom: 20px;
+left: 0;
+padding-top: 10px;
+border-radius: 0px 0px 10px 10px;
+width: 100%;
+    color: black;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+.tanda1{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-around;
+    height: 100px;
+
+
+    
+    
+
+}
+
+.tanda2{
+    
+    width: 74.5%;
+    display: flex;
+    margin-left: 410px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+
+}
+.reborde1{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 208px;
+    width: 335px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.reborde2{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 208px;
+    width: 335px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.reborde3{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 208px;
+    width: 335px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.reborde4{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 208px;
+    width: 335px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.reborde5{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 208px;
+    width: 335px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.reborde6{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 208px;
+    width: 335px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.tfoot1{
+    color: aliceblue;
+    width: 10%;
+    margin-left: 50px;
+    flex-direction: column;
+
+
+}
+
+.tfoot2{
+
+    color: aliceblue;
+    width: 10%;
+    margin-left: 30px;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+
+}
+
+.tfootP{
+
+    display: flex;
+    
+
+}

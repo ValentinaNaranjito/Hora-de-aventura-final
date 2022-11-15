@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html"><img src="imagenes/Logo png.png" width="200px"></a>
+            <div class="formulario">
+             <h1>Registro</h1>
+                <form method="post" id="form">
+                    <div class="username myname">
+                     <input type="text" required id="myname">
+                        <label>Nombre</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="username surname">
+                    <input type="text" required id="surname">
+                        <label>Apellidos</label>
+                        <p class="mensajeError"></p>
+                    </div>
+                    <div class="username email">
+                        <input type="text" required id="email">
+                           <label>Correo electronico</label>
+                           <p class="mensajeError"></p>
+                       </div>
+                       <div class="username mobile">
+                        <input type="text" required id="mobile">
+                           <label>Número celular</label>
+                           <p class="mensajeError"></p>
+                       </div>
+                    <div class="username password">
+                        <input type="password" required id="password">
+                     <label>Contraseña</label>
+                     <p class="mensajeError"></p>
+                    </div>
+                    <div class="username repeatPassword">
+                        <input type="password" required id="repeatPassword">
+                     <label>Repetir contraseña</label>
+                     <p class="mensajeError"></p>
+                    </div>
+                    <input type="submit" value="Resgristrarte">
+                    <p class="mensajeCorrecto"></p>
+                </form>
+            </div>
+    </div>
+</body>
+<script src="registro.js"></script>
+</html>
