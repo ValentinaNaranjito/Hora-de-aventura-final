@@ -54,6 +54,13 @@ function mostrarMensajeError (claseInput, mensaje){
 }
 
 function enviarFormulario(){
+    let user ={ nombre: nombre.value, apellido: apellidos.value, correo: correo.value, celular: celular.value, contraseña: contrasenia.value, }
+    users.push(user)
+
+    localStorage.setItem("user", user);
+
+window.location.href = "index.html"
+
     form.reset();
     form.lastElementChild.innerHTML = "Listo !!";
 }

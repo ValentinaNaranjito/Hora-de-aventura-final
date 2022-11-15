@@ -6,3 +6,6 @@ const cards =[
     {id:"pfcard", fav: false , image:"imagenes/Princesaflama.gif" , image2:"https://i.pinimg.com/564x/ab/a8/31/aba831ee4589cefd2f0cf15f9533d500.jpg" , nombre: "Princesa Flama", description: "Lorem Ipsum"} , 
     {id:"scard", fav: false , image:"imagenes/magacazadora.jpg" , image2:"" , nombre: "Maga Cazadora", description: "Lorem Ipsum"}
 ]
+const users =[
+    
+]
