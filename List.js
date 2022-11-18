@@ -20,3 +20,15 @@ const cardsgeneral =[
 const users =[
 
 ]
+
+
+const request = new XMLHttpRequest();
+request.open('GET', 'https://adventure-time-api.herokuapp.com/api/v1/characters', true);
+request.onload = function(){
+    const data = JSON.parse(this.response);
+    data.forEach(element => {
+        console.log(element.id);
+    });
+}
+
+request.send();

@@ -152,3 +152,10 @@ footer{
     font-style: italic;
     font-family: cursive;
 }
+.video {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
