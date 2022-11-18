@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+
+    background-color: #02B0EF;
+    height: 98px;
+
+}
+.menu{
+    
+    
+    display:flex;
+    justify-content:flex-end;
+    
+
+    
+    
+}
+.quienes{
+
+    color: azure;
+    width: 140px;
+    margin-top: 30px;
+    margin-right: 20px;
+
+
+    
+
+}
+
+.bus{
+
+    
+    margin-top: 20px;
+    margin-right: 20px;
+
+    
+}
+.noti{
+
+    
+    margin-top: 10px;
+    margin-right: 16px;
+   
+    
+
+}
+.log{
+
+    
+    margin-top: 20px;
+    margin-right: 50px;
+    
+    
+
+}
