@@ -10,9 +10,9 @@ const fetchData = async () => {
         const card = {
             id: element.id, 
             fav: true , 
-            image: "imagenes/" + element.id + '.jpeg', 
-            image2: "imagenes/" + element.id +'-2'+ '.jpeg', 
-            image3: "imagenes/" + element.id + '.jpeg', 
+            image: "imagenes/" + element.id + '.jpg', 
+            image2: "imagenes/" + element.id +'-2'+ '.jpg', 
+            image3: "imagenes/" + element.id + '.jpg', 
              nombre: element.fullName, 
              description: element.quotes[0]
         }
