@@ -7,18 +7,18 @@ const contrasenia2 = document.getElementById("repeatPassword");
 const form = document.getElementById("form");
 const listInputs = document.querySelectorAll(".username")
 
-form.addEventListener("submit" , (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
     let condicion = validacionForm();
-    if (condicion){
+    if (condicion) {
         enviarFormulario();
     }
 });
 
-function validacionForm(){
+function validacionForm() {
     let condicion = true;
     listInputs.forEach((element) => {
-        element.lastElementChild.innerHTML ="";
+        element.lastElementChild.innerHTML = "";
     });
 
     if (nombre.value.length < 1 || nombre.value.trim() == "") {
@@ -48,18 +48,32 @@ function validacionForm(){
     return condicion;
 }
 
-function mostrarMensajeError (claseInput, mensaje){
+function mostrarMensajeError(claseInput, mensaje) {
     let elemento = document.querySelector(`.${claseInput}`);
-        elemento.lastElementChild.innerHTML = mensaje;
+    elemento.lastElementChild.innerHTML = mensaje;
 }
 
-function enviarFormulario(){
-    let user ={ nombre: nombre.value, apellido: apellidos.value, correo: correo.value, celular: celular.value, contraseña: contrasenia.value, }
+function enviarFormulario() {
+    let user = {
+        nombre: nombre.value,
+        apellido: apellidos.value,
+        correo: correo.value,
+        celular: celular.value,
+        contraseña: contrasenia.value,
+        favoritos: []
+    }
+    if (localStorage.getItem("users") === null) {
+    
     users.push(user)
 
-    localStorage.setItem("user", user);
+    localStorage.setItem("users", JSON.stringify(users));
+    } else {
+        let allUsers = JSON.parse(localStorage.getItem("users"));
+        allUsers.push(user)
+        localStorage.setItem("users", JSON.stringify(allUsers));
+    }
 
-window.location.href = "index.html"
+    window.location.href = "login.html"
 
     form.reset();
     form.lastElementChild.innerHTML = "Listo !!";

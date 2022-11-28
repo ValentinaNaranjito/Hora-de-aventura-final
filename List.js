@@ -16,11 +16,15 @@ const cardsgeneral =[
     {id:"pfcard", fav: false , image:"" , image2:"https://i.pinimg.com/564x/ab/a8/31/aba831ee4589cefd2f0cf15f9533d500.jpg" , nombre: "Princesa Flama", description: "Lorem Ipsum"} , 
     
 
-] 
-const users =[
+]
+
+let users =[
 
 ]
 
+let favoritos = [
+
+]
 
 
 /*

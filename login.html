@@ -11,14 +11,16 @@
     <div class="formulario">
         <a href="index.html"><img src="imagenes/Logo png.png" width="200px"></a>
         <h1>Inicio de Sesión</h1>
-        <form method="post">
+        <form method="post" id="form">
             <div class="username">
-                <input type="text" required>
+                <input type="text" required id="correo">
                 <label>Correo</label>
+                <p class="mensajeError"></p>
             </div>
-            <div class="username">
-                <input type="password" required>
+            <div class="username password">
+                <input type="password" required id="contraseña">
                 <label>Contraseña</label>
+                <p class="mensajeError"></p>
             </div>
         
             <input type="submit" value="Iniciar">
@@ -28,5 +30,6 @@
         </form>
     </div>
 </body>
+<script src="List.js"></script>
 <script src="login.js"></script>
 </html>
